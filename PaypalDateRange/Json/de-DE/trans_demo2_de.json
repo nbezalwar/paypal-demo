@@ -1,0 +1,24 @@
+{
+    "glossary": {
+        "title": "Beispiel Glossar",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Aktualisiert für die Anzahl der Tage Demo2",
+					"Acronym": "git Kommentar pr aktualisiert",
+					"Abbrev": "ISO 8879:1986",
+			"new" : "check PR Closed_new update",
+			"Test" : "test the update in file new session",
+					"GlossDef": {
+                        "para": "Eine Meta-Markup-Sprache, die verwendet wird, um Markup-Sprachen wie DocBook newbook TEST zu erstellen.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "Aufschlag"
+                }
+            }
+        }
+    }
+}

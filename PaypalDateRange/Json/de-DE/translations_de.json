@@ -1,0 +1,23 @@
+{
+    "glossary": {
+        "title": "Beispiel Glossar - Delta",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "aktualisierter Inhalt für Aktualisierung für Pull-Request-Kommentar_Anzahl der Tage",
+					"Acronym": "git kommentar pr",
+					"Abbrev": "ISO 8879:1986",
+					"SortAs": "SGML",
+					"GlossDef": {
+                        "para": "Eine Meta-Markup-Sprache, die verwendet wird, um Markup-Sprachen wie DocBook newbook TEST zu erstellen.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "Aufschlag"
+                }
+            }
+        }
+    }
+}

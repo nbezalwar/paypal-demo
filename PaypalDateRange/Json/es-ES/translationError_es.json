@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Error al cargar la actualización de traducciones update_time zone",
+    "title2": "nueva solicitud de pedido cerrada",
+    "body": "No se han podido cargar las traducciones para esta configuración regional. Póngase en contacto con su administrador de Blue Prism."
+  },
+  "fr": {
+    "title": "",
+    "body": ""
+  },
+  "de": {
+    "title": "",
+    "body": ""
+  },
+  "es": {
+    "title": "",
+    "body": ""
+  },
+  "ja": {
+    "title": "",
+    "body": ""
+  },
+  "zh": {
+    "title": "",
+    "body": ""
+  }
+}

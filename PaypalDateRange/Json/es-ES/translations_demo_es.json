@@ -1,0 +1,22 @@
+{
+    "glossary": {
+        "title": "glosario de ejemplo",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "contenido actualizado para actualizar para comentario de solicitud de extracción_número de días",
+					"Acronym": "comentario de git pr actualizado",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "Lenguaje de metamarcación, que se utiliza para crear lenguajes de marca como DocBook newbook TEST.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "margen de beneficio"
+                }
+            }
+        }
+    }
+}
