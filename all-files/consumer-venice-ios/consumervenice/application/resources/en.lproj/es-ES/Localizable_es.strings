@@ -1,0 +1,34 @@
+// MARK: Rewards - Push Notification
+"REWARDS_NOTIFICATION" = "Obtuvo 1 sello de la transacción reciente.";
+
+// MARK: Store Cash - Push Notification
+"STORE_CASH" = "Consigue %1$@ de descuento en tu próxima compra en %2$@. Se aplican términos de %3$ Use by %3$@..";
+
+"trading.general.amountCrypto" = "%1$@ %2$@";
+"trading.balanceTile.actionSheet.viewOneHolding" = "Ver %1$@";
+"trading.disputesAlert.body.detailsKnown" = "Ha informado de una compra criptográfica como no autorizada.\n\nPara ver el estado de cualquiera de sus casos abiertos, vaya al Centro de resolución.";
+"trading.landing.reward.phaseTwo.intro.sheet.terms.description" = "El valor de su recompensa se basa en el tipo de cambio actual e incluye un diferencial. Las ganancias y pérdidas de criptomonedas podrían afectar sus impuestos. Esta es una oferta única y PayPal puede eliminarla o cambiarla en cualquier momento. La oferta finaliza el 31 de diciembre de 2022.\n\n<a href=\"%1$@\">Se aplican los términos de la recompensa</a>";
+"trading.landing.reward.phaseTwo.promo.card.terms.description" = "<a href=\"%1$@\">Se aplican los términos de la recompensa</a>";
+"trading.landing.pricing.percent" = "%@%%";
+"trading.gainOrLoss.value.text" = "%1$@ (%2$@%%)";
+"trading.currencyDetail.valuePercentChange.increased.accessibilityTitle" = "Aumento de %1$@ %2$@%% %3$@";
+"trading.currencyDetail.valuePercentChange.decreased.accessibilityTitle" = "Disminución de %1$@ %2$@%% %3$@";
+"trading.amount.buy.amount.title" = "%1$@ %2$@ = 1 %3$@";
+"trading.fiSelectorCell.card.subtitle" = "%1$@ ••••%2$@";
+"trading.review.send.fee.value" = "%1$@ %2$@ (%3$@)";
+"trading.tpt.wallet.share.text" = "Esta es mi dirección %1$@: \n%2$@ \n\n-%3$@";
+
+
+
+//MARK: Compliance
+"CIP_SUC" = "Gracias por confirmar su identidad.";
+"CIP_FLR" = "No hemos podido confirmar su identidad con su identificación con foto. Solo tienes que abrir tu aplicación para proporcionar un poco más de información.";
+
+//MARK: Incentive
+"INCENTIVE_AWARD" = "¡Tu recompensa está aquí!\nHemos añadido %1$@ vale de reembolso a tu cuenta de PayPal. Ver detalles.";
+"INCENTIVE_EXPIRY" = "¡No deje escapar sus ahorros!\nTu vale de %1$@ de reembolso caduca pronto. Ver detalles.";
+
+//MARK: Wallet
+"INSTANT_WITHDRAW_SUC" = "Su transferencia de %1$@ a su %2$@ %3$@ ****%4$@ ha finalizado.";
+"INSTANT_WITHDRAW_FLR_DUETO_SYSTEM" = "℮ ..... su transferencia de %1$@ a su %2$@ %3$@ ****%4$@ no se ha realizado correctamente. En su lugar, puede solicitar una transferencia estándar.";
+"INSTANT_WITHDRAW_FLR_DUETO_BANK" = "℮ ..... su transferencia de %1$@ a su %2$@ %3$@ ****%4$@ no se ha realizado correctamente. Seleccione una cuenta bancaria diferente para la transferencia.";
