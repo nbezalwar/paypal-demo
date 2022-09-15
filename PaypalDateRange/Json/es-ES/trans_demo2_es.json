@@ -10,10 +10,10 @@
 					"GlossTerm": "Actualizado para la demostración de no de días2",
 					"Acronym": "comentario de git pr actualizado",
 					"Abbrev": "ISO 8879:1986",
-			"new" : "check PR Closed_new update",
-			"Test" : "test the update in file new session",
+			"new" : "comprobar PR Closed_nueva actualización",
+			"Test" : "probar la actualización en el archivo nueva sesión",
 					"GlossDef": {
-                        "para": "Lenguaje de metamarcación, que se utiliza para crear lenguajes de marca como DocBook newbook TEST.",
+                        "para": "Un lenguaje de metamarcación, utilizado para crear lenguajes de marca como DocBook newbook TEST.",
 						"GlossSeeAlso": ["GML", "XML"]
                     },
 					"GlossSee": "margen de beneficio"
