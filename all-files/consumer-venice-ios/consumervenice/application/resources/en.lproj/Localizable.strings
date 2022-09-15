@@ -1,5 +1,5 @@
 // MARK: Rewards - Push Notification
-"REWARDS_NOTIFICATION" = "You got 1 stamp from recent transaction pr raised.";
+"REWARDS_NOTIFICATION" = "You got 1 stamp from recent transaction featureA.";
 
 // MARK: Store Cash - Push Notification
 "STORE_CASH" = "Get %1$@ off your next purchase at %2$@. Use by %3$@. Terms apply.";
