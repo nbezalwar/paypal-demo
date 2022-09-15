@@ -10,7 +10,7 @@ description: "Cette page de fichier de test comprend des ressources liées au si
 noindex: true
 guide_menu_title: ""
 guide_menu_list:
-  - name: Contribution à Braze Docs
+  - name: Contribuer à Braze Docs
     link: /docs/help/help_articles/docs/contribution/
     fa_icon: fas fa-edit
   - name: Chevauchement de la barre de défilement
