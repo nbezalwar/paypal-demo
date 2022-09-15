@@ -1,5 +1,5 @@
 {	
-  "agreeAndCreateAccount": "Agree and Create Account",
+  "agreeAndCreateAccount": "Agree and Create Account.",
   "individualSoleProp": "Individual\/Sole Proprietorship",
   "pageHeader": "Tell us about you, {customerInfo.personalInfo.name.firstName}",
   "password.helper.numberAndSymbol": "Enter at least 1 number and 1 symbol (such as !@#$%^).",

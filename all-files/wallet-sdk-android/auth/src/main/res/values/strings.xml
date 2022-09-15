@@ -1,5 +1,5 @@
 <resources>
-    <string name="credentials_error_message">Check your info and try again.</string>
+    <string name="credentials_error_message">Check your info and try again now.</string>
     <string name="trading_landing_asset_amount_owned">%s owned.</string>
     <string name="trading_loading_error_message">We\'re having some trouble loading this information.</string>
     <string name="trading_landing_referral_message">You can earn $10 when you invite a friend to buy crypto. Terms apply</string>
