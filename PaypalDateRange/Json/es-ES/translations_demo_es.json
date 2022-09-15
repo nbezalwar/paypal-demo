@@ -11,7 +11,7 @@
 					"Acronym": "comentario de git pr actualizado",
 					"Abbrev": "ISO 8879:1986",
 					"GlossDef": {
-                        "para": "Lenguaje de metamarcación, que se utiliza para crear lenguajes de marca como DocBook newbook TEST.",
+                        "para": "Un lenguaje de metamarcación, utilizado para crear lenguajes de marca como DocBook newbook TEST.",
 						"GlossSeeAlso": ["GML", "XML"]
                     },
 					"GlossSee": "margen de beneficio"

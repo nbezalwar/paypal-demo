@@ -9,7 +9,7 @@ page_type: reference
 
 # Tipos de identificador de API
 
-> Esta guía de referencia trata sobre los diferentes tipos de identificadores de API que se pueden encontrar en el panel de Braze, su propósito, dónde se pueden encontrar y cómo se utilizan normalmente. Para obtener información sobre las claves de API REST o las claves de API de grupo de aplicaciones, consulte la Descripción general de las claves de API [Rest]({{site.baseurl}}/api/api_key/)
+> Esta guía de referencia trata sobre los diferentes tipos de identificadores de API que se pueden encontrar en el panel de Braze, su propósito, dónde se pueden encontrar y cómo se utilizan normalmente. Para obtener información sobre las claves API REST o las claves API de grupo de aplicaciones, consulte la Descripción general de las claves API de [reposo]({{site.baseurl}}/api/api_key/)
 
 Los siguientes identificadores de API se pueden utilizar para acceder a tu plantilla, lienzo, campaña, segmento, envío o tarjeta desde la API externa de Braze. Todos los mensajes deben seguir la codificación [UTF-8][1].
 
@@ -18,15 +18,15 @@ Los siguientes identificadores de API se pueden utilizar para acceder a tu plant
 
 ## La clave API del identificador de la aplicación
 
-La clave API del identificador de aplicación o `app_id` es un parámetro que asocia la actividad con una aplicación específica en su grupo de aplicaciones. Designa con qué aplicación dentro del grupo de aplicaciones está interactuando. Por ejemplo, descubrirá que tendrá un `app_id` para su aplicación iOS, un `app_id` para su aplicación Android y un `app_id` para su integración web. En Braze, es posible que tenga varias aplicaciones para la misma plataforma en los distintos tipos de plataforma que admite Braze.
+La clave API de identificador de aplicación o `app_id` es un parámetro que asocia actividad con una aplicación específica en su grupo de aplicaciones. Designa con qué aplicación dentro del grupo de aplicaciones está interactuando. Por ejemplo, descubrirá que tendrá un `app_id` para su aplicación iOS, un `app_id` para su aplicación Android y un `app_id` para su integración web. En Braze, es posible que tenga varias aplicaciones para la misma plataforma en los distintos tipos de plataforma que admite Braze.
 
 #### ¿Dónde puedo encontrarlo?
 
 Hay dos formas de localizar su `app_id`:
 
-1. Puede encontrar este identificador de aplicación `app_id` o en la consola** de **Developer en **Configuración**. En esta nueva página, en **Identificación**, podrá ver todas las `app_id` que existen para sus aplicaciones.
+1. Puede encontrar este identificador `app_id` de aplicación o en la consola** de **Developer en **Configuración**. En esta nueva página, en **Identificación**, podrá ver todas las `app_id` que existen para sus aplicaciones.
 
-2. Vaya a **Administrar configuración** en **Configuración**. En esta nueva página, en la pestaña **Configuración**, a mitad de la página, encontrará una "clave API para NOMBRE **** DE APLICACIÓN en **PLATAFORMA**" (p. ej., "clave API para helado en iOS). Esta clave API es su identificador de aplicación.
+2. Vaya a **Gestionar ajustes** en **Ajustes**. En esta nueva página, en la pestaña **Configuración**, a mitad de la página, encontrará una "clave API para NOMBRE **** DE APLICACIÓN en **PLATAFORMA**" (p. ej., "clave API para helado en iOS). Esta clave API es su identificador de aplicación.
 
 #### ¿Para qué se puede utilizar?
 
@@ -37,7 +37,7 @@ A veces, es posible que se le solicite un `app_id` pero no está trabajando con 
 #### Múltiples claves API de identificador de aplicación
 
 Durante la configuración del SDK, el caso de uso más común para varias claves API de App Identifier es separar esas claves para variantes de depuración y compilación de versiones.
-Para cambiar fácilmente entre varias claves API de App Identifier en sus compilaciones, recomendamos crear un `braze.xml` archivo separado para cada variante de [compilación relevante][3]. Una variante de compilación es una combinación de tipo de compilación y sabor del producto. Tenga en cuenta que, por defecto, un nuevo proyecto Android está configurado con tipos `debug` de compila`release`ción y sin sabores de producto.
+Para cambiar fácilmente entre varias claves API de App Identifier en sus compilaciones, le recomendamos que cree un `braze.xml` archivo independiente para cada variante de [compilación relevante][3]. Una variante de compilación es una combinación de tipo de compilación y sabor del producto. Tenga en cuenta que, por defecto, un nuevo proyecto Android está configurado con tipos `debug` de compila`release`ción y sin sabores de producto.
 
 Para cada variante de compilación relevante, cree una nueva `braze.xml` para ella en `src/<build variant name>/res/values/`:
 
@@ -54,7 +54,7 @@ Cuando se compila la variante de compilación, utilizará la nueva clave API.
 
 ## Identificador de API de plantilla
 
-Un identificador de API de [plantilla]({{site.baseurl}}/api/endpoints/templates/) o ID de plantilla es una clave lista para usar de Braze para una plantilla determinada dentro del tablero. Los ID de plantilla son únicos para cada plantilla y se pueden utilizar para hacer referencia a las plantillas a través de la API. 
+Un identificador de API de [plantilla]({{site.baseurl}}/api/endpoints/templates/) o ID de plantilla es una clave lista para usar de Braze para una plantilla determinada dentro del panel. Los ID de plantilla son únicos para cada plantilla y se pueden utilizar para hacer referencia a las plantillas a través de la API. 
 
 Las plantillas son ideales para si tu empresa contrata tus diseños HTML para campañas. Una vez que se han creado las plantillas, ahora tienes una plantilla que no es específica de una campaña, pero que se puede aplicar a una serie de campañas como un boletín informativo.
 
@@ -88,7 +88,7 @@ Puedes encontrar tu ID del lienzo en el panel de control. Abre el **lienzo** en 
 - Seguimiento de análisis en un mensaje específico
 - Obtén estadísticas agregadas de alto nivel sobre el rendimiento del lienzo
 - Obtener detalles sobre un lienzo específico
-- Con Currents para incorporar datos de nivel de usuario para un enfoque de "imagen más amplia" de los lienzos
+- Con Currents para incorporar datos a nivel de usuario para un enfoque de "imagen más grande" de los lienzos
 - Con entrega de activador de API para recopilar estadísticas de mensajes transaccionales
 
 <br>
@@ -113,7 +113,7 @@ Puedes encontrar tu ID de campaña de dos maneras:
 - Seguimiento de análisis en un mensaje específico
 - Obtenga estadísticas agregadas de alto nivel sobre el rendimiento de la campaña
 - Obtener detalles sobre una campaña específica
-- Con Currents para incorporar datos a nivel de usuario para un enfoque de "mayor panorama" de las campañas
+- Con Currents para incorporar datos de nivel de usuario para un enfoque de "imagen más amplia" de las campañas
 - Con entrega activada por API para recopilar estadísticas de mensajes transaccionales
 - Para [buscar una campaña]({{site.baseurl}}/user_guide/engagement_tools/campaigns/managing_campaigns/search_campaigns/#search-syntax) específica en la página **Campañas** utilizando el filtro `api_id:YOUR_API_ID`
 
@@ -147,7 +147,7 @@ Puede encontrar su ID de segmento de dos maneras:
 Un identificador de API de tarjeta o ID de tarjeta es una clave lista para usar de Braze para una tarjeta de fuente de noticias determinada dentro del panel. Los ID de tarjeta son únicos para cada tarjeta de fuente[ de ]({{site.baseurl}}/user_guide/engagement_tools/news_feed/)noticias y se pueden utilizar para hacer referencia a las tarjetas a través de la API. 
 
 #### ¿Dónde puedo encontrarlo?
-Puede encontrar su Identificación de Tarjeta de dos maneras:
+Puede encontrar el ID de su tarjeta de dos maneras:
 
 1. En el panel, abra Fuente de **** noticias en **Compromiso** y seleccione una Fuente de noticias preexistente. Si la fuente de noticias que desea aún no existe, cree una y guárdela. En la parte inferior de la página de noticias individuales, podrá encontrar su identificador único de API de tarjeta. <br>
 <br>
