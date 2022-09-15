@@ -10,7 +10,7 @@ description: "Cette page d’accueil est un endroit pour tous ces éléments pr�
 
 guide_featured_title: "Caractéristiques"
 guide_featured_list:
-- name: Churn prédictif
+- name: Brûlage prédictif
   link: /docs/user_guide/predictive_suite/predictive_churn/
   fa_icon: fas fa-cogs
 - name: Achats prédictifs

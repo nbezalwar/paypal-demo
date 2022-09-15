@@ -9,9 +9,9 @@ custom_collection: home
 nav_title: "Documentación"
 description: "Esta es la página de inicio del sitio de documentación de Braze. Aquí puede encontrar enlaces a la guía del usuario, la guía del desarrollador, la guía de API, la documentación de socios tecnológicos y los artículos de ayuda. También puede encontrar enlaces rápidos a enlaces útiles y artículos populares."
 
-doc_top_header: "Documentación de Braze"
+doc_top_header: "Documentación de braze"
 doc_top_text: "Reúnase con nosotros en la intersección del arte y la ciencia. Encuéntranos en el momento o en los próximos años.
-A su llegada, espere el mejor compromiso del ciclo de vida.
+A su llegada, espere lo mejor del compromiso del ciclo de vida.
 En Braze, nuestro objetivo es crear fuertes vínculos entre usted y sus clientes o usuarios."
 
 doc_menu_list:
@@ -44,7 +44,7 @@ popular_topic_list:
     link: /docs/user_guide/engagement_tools/campaigns/ideas_and_strategies/active_user_campaigns/
   - name: Ubicaciones y geovallas
     link: /docs/user_guide/engagement_tools/locations_and_geofences/
-  - name: Mensajes personalizados
+  - name: Mensajería personalizada
     link: /docs/user_guide/personalization_and_dynamic_content/overview/
   - name: API REST de Braze
     link: /docs/developer_guide/rest_api/basics/

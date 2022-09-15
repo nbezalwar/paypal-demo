@@ -11,23 +11,23 @@ page_type: glossary
 
 glossaries:
   - name: Clave de API REST de grupo de aplicaciones
-    description: El <code>api_key</code> indica el título de la aplicación con el que están asociados los datos de esta solicitud y autentica al solicitante como alguien que puede enviar mensajes a la aplicación. Debe incluirse con cada solicitud como encabezado de autorización HTTP. Se puede encontrar en la sección Consola<strong> de </strong>desarrollador del panel de Braze.
+    description: El <code>api_key</code> indica el título de la aplicación con el que están asociados los datos de esta solicitud y autentica al solicitante como alguien que tiene permiso para enviar mensajes a la aplicación. Debe incluirse con cada solicitud como encabezado de autorización HTTP. Se puede encontrar en la sección Consola<strong> de </strong>desarrollador del panel de Braze.
     field: "api_key"
-  - name: Identificador de aplicación
+  - name: Identificador de la aplicación
     description: Si desea enviar push a un conjunto de tokens de dispositivo (en lugar de usuarios), debe indicar en nombre de qué aplicación específica está enviando mensajes. En ese caso, proporcionará el identificador de aplicación adecuado en un objeto de tokens. Se puede encontrar en la sección Consola<strong> de </strong>desarrollador del panel de Braze.
     field: "app_id"
   - name: ID de usuario externo
-    description: Identificador único para enviar un mensaje a usuarios específicos. Este identificador debe ser el mismo que el que configuró en el SDK de Braze. Solo puede dirigirse a usuarios para mensajes que ya hayan sido identificados a través del SDK o la API de usuario. Se permite un máximo de 50 ID de usuario externo en una solicitud. <br>
+    description: Identificador único para enviar un mensaje a usuarios específicos. Este identificador debe ser el mismo que el que configuró en el SDK de Braze. Solo puede dirigirse a usuarios para mensajería que ya hayan sido identificados a través del SDK o la API de usuario. Se permite un máximo de 50 ID de usuario externo en una solicitud. <br>
  <br>
  Para los puntos finales de activación de campaña, si proporciona este campo, los criterios se estratificarán con los segmentos de la campaña y solo los usuarios que estén en la lista de ID de usuario externo y el segmento de la campaña recibirán el mensaje.
     field: "external_user_ids"
   - name: Identificador de segmento
-    description: El <code>segment_id</code> indica el segmento al que se debe enviar el mensaje. Se puede encontrar un identificador de segmento para cada uno de los segmentos que ha creado en la sección Consola<strong> de </strong>desarrollador del tablero de Braze. <br>
+    description: El <code>segment_id</code> indica el segmento al que se debe enviar el mensaje. Puede encontrar un identificador de segmento para cada uno de los segmentos que ha creado en la sección Consola<strong> de </strong>desarrolladores del panel de Braze. <br>
  <br>
  Para los terminales de mensaje, si proporciona un identificador de segmento y una lista de ID de usuario externo en una sola solicitud de mensajería, los criterios se estratificarán y solo los usuarios que estén en la lista de ID de usuario externo y el segmento proporcionado recibirán el mensaje.
     field: "segment_id"
   - name: Identificador de campaña
-    description: Para terminales de mensajería, <code>campaign_id</code> indica la campaña API en la que se debe realizar un seguimiento de los análisis de un mensaje. Se puede encontrar un identificador de campaña para cada una de las campañas que ha creado en la sección Consola<strong> de </strong>desarrolladores del tablero de Braze. Si proporciona un identificador de campaña en el cuerpo de la solicitud, debe proporcionar un <code>message_variation_id</code> en cada uno de los objetos de mensaje que indican la variante representada de su campaña. <br>
+    description: Para los terminales de mensajería, <code>campaign_id</code> indica la campaña API en la que se debe realizar un seguimiento de los análisis de un mensaje. Se puede encontrar un identificador de campaña para cada una de las campañas que ha creado en la sección Consola<strong> de </strong>desarrolladores del tablero de Braze. Si proporciona un identificador de campaña en el cuerpo de la solicitud, debe proporcionar un <code>message_variation_id</code> en cada uno de los objetos de mensaje que indican la variante representada de su campaña. <br>
  <br>
  Para los puntos finales de activación de campaña, <code>campaign_id</code> indica el ID de API de la campaña que se va a activar. Este campo es obligatorio para todas las solicitudes de punto final de activación.
     field: "campaign_id"
@@ -35,9 +35,9 @@ glossaries:
     description: Para los puntos finales de activación del lienzo, <code>canvas_id</code> indica el identificador del lienzo que se va a activar o programar. Este campo es obligatorio para todas las solicitudes de punto final de activación.
     field: "canvas_id"
   - name: Enviar identificador
-    description: Para los terminales de mensajería, el <code>send_id</code> indica el envío en el que se debe realizar el seguimiento del análisis de un mensaje. El le <code>send_id</code> permite extraer análisis para una instancia específica de una campaña enviada a través del <code>sends/data_series</code> punto final. Las campañas de activación de API y API que se envían como difusión generarán automáticamente un identificador de envío si no se proporciona un identificador de envío. <br>
+    description: Para los terminales de mensajería, el <code>send_id</code> indica el envío bajo el cual se debe realizar un seguimiento de los análisis de un mensaje. El le <code>send_id</code> permite extraer análisis para una instancia específica de una campaña enviada a través del <code>sends/data_series</code> punto final. Las campañas API y API activadoras que se envían como difusión generarán automáticamente un identificador de envío si no se proporciona un identificador de envío. <br>
  <br>
- Si desea especificar su propio <code>send_id</code>, primero tendría que crear uno a través del <code>sends/id/create</code> punto final. El <code>send_id</code> debe tener todos los caracteres ASCII y como máximo 64 caracteres.  Puedes reutilizar un identificador de envío en varios envíos de la misma campaña si deseas agrupar los análisis de esos envíos juntos. <br>
+ Si desea especificar su propio <code>send_id</code>, primero tendrá que crear uno a través del <code>sends/id/create</code> punto final. El <code>send_id</code> debe tener todos los caracteres ASCII y como máximo 64 caracteres.  Puedes reutilizar un identificador de envío en varios envíos de la misma campaña si deseas agrupar los análisis de esos envíos juntos. <br>
  <br>
  Tenga en cuenta que el <code>send_id</code> seguimiento no está disponible para los correos electrónicos enviados a través de Mailjet. <br>
  <br>
