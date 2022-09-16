@@ -1,0 +1,41 @@
+<resources>
+    <string name="credentials_error_message">Vérifiez vos informations et réessayez maintenant.</string>
+    <string name="trading_landing_asset_amount_owned">%s détenue.</string>
+    <string name="trading_loading_error_message">Nous rencontrons des difficultés pour charger ces informations.</string>
+    <string name="trading_landing_referral_message">Vous pouvez gagner 10 $ lorsque vous invitez un ami à acheter des cryptomonnaies. Des conditions s’appliquent</string>
+    <string name="trading_loading_error_message">Nous rencontrons des difficultés pour charger ces informations.</string>
+    <string name="trading_page_loading_error_message">Nous rencontrons des difficultés pour charger cette page.</string>
+    <string name="trading_detail_tooltip_1_uk">Voici la valeur estimée actuelle de %s. Vous pouvez en acheter une partie pour seulement 1 £.</string>
+    <string name="trading_buy_first_time_success_message">Vous possédez maintenant %1$s %2$s</string>
+    <string name="trading_half_sheet_account_formatted">%1$s ••••%2$s</string>
+    <string name="trading_pyusd_exchange_rate_fee_buy_info">Tous les achats de cryptomonnaie sont définitifs.&#160;</string>
+    <string name="trading_buy_toast_message">Vous avez acheté %1$s %2$s !</string>
+    <string name="trading_sell_toast_message">Vous avez reçu %3$s dans votre solde pour vendre %1$s %2$s.</string>
+    <string name="trading_half_sheet_review_exchange_rate">%2$s = 1 %1$s</string>
+    <string name="trading_buy_amount_info">Achetez seulement %1$s1 %2$s</string>
+    <string name="trading_amount_crypto_value">%1s %2s = 1 %3s</string>
+    <string name="trading_clear_amount_content_description">montant clair</string>
+    <string name="trading_buy_title">Acheter %s</string>
+    <string name="trading_buy_minimum_amount_error">Le montant minimum d’achat est de %1$s1.00.</string>
+    <string name="trading_ineligible_fi_description">Seuls les comptes bancaires confirmés, la plupart des cartes de débit et les soldes avec suffisamment de fonds peuvent être utilisés pour acheter des cryptomonnaies. <a href="https://www.paypal.com/us/webapps/mpp/popup/about-payment-methods">Voir les droits et politiques relatifs aux méthodes de paiement.</a></string>
+    <string name="trading_rewards_intro_boost_returning_user_body">Il vous suffit d’acheter au moins $%1$s de cryptomonnaie et nous vous offrons une valeur supplémentaire de $%2$s.\n\nUne fois que vous avez obtenu votre récompense cryptographique, vous pouvez la vendre, la conserver ou l’utiliser pour effectuer des achats \ \u2014le choix vous appartient</string>
+    <plurals name="trading_risk_money_on_hold_phase_2_learn_more_info_content_1_days">
+        <item quantity="one">%1$d jour</item>
+        <item quantity="other">%1$d jours</item>
+    </plurals>
+    <plurals name="trading_transfer_fee_days">
+        <item quantity="one">%1$d jour</item>
+        <item quantity="other">%1$d jours</item>
+    </plurals>
+    <plurals name="trading_transfer_fee_hours">
+        <item quantity="other">%1$s heures</item>
+        <item quantity="one">1 heure</item>
+    </plurals>
+    <plurals name="trading_transfer_fee_minutes">
+        <item quantity="other">%1$s minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <string name="trading_price_alerts_turn_notifications_dialog_button_secondary">@android :chaîne/annulation</string>
+    <string name="trading_price_alerts_toast_success">Votre alerte de %1$s prix est définie sur %2$s % %.</string>
+    <string name="trading_transfer_exchange_disclaimer_new_stablecoin">Tous les transferts cryptographiques sont définitifs.\n\nTous les transferts font l’objet d’un examen et peuvent être retardés ou arrêtés si nous trouvons un problème.</string>
+ </resources>
