@@ -11,7 +11,7 @@
   "back": "Espalda",
   "contactUs": "Contáctenos",
   "submit": "Enviar",
-  "termsAgreement": "Al hacer clic en Aceptar y enviar, acepta las {termsOfUseLink}Condiciones de uso{/termsOfUseLink} y el Aviso de {privacyNoticeLink}privacidad{/privacyNoticeLink}.",
+  "termsAgreement": "Al hacer clic en Aceptar y enviar, acepta los {termsOfUseLink}Términos de uso{/termsOfUseLink} y el Aviso de {privacyNoticeLink}privacidad{/privacyNoticeLink}.",
   "paypalPrivacyStatement": "{paypalPrivacyStatement-link}Declaración de privacidad{/paypalPrivacyStatement-link}",
   "paypalLegalAgreements": "{paypalLegalAgreements-link}Acuerdos legales{/paypalLegalAgreements-link}",
   "paypalHelpHub": "{paypalHelpHub-link}Ayuda{/paypalHelpHub-link}",
