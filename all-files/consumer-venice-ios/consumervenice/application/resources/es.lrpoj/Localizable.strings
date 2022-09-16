@@ -1,5 +1,5 @@
 // MARK: Rewards - Push Notification
-"REWARDS_NOTIFICATION" = "Obtuvo 1 sello de la característica de transacción recienteA.";
+"REWARDS_NOTIFICATION" = "Obtuvo 1 sello de la transacción reciente PR CLOSED.";
 
 // MARK: Store Cash - Push Notification
 "STORE_CASH" = "Consigue %1$@ de descuento en tu próxima compra en %2$@. Se aplican términos de %3$ Use by %3$@..";
