@@ -8,17 +8,17 @@
   "inProcessWarning" : "Désolé, vous ne pouvez pas modifier cette sélection pendant son traitement. Veuillez réessayer plus tard."
   "agreeAndSubmit": "Accepter et soumettre",
   "alreadyAccount": "Vous avez déjà un compte ? {signInLink}Se connecter{/signInLink}",
-  "back": "Retour",
-  "contactUs": "Nous contacter",
+  "back": "Arrière",
+  "contactUs": "Contactez-nous",
   "submit": "Soumettre",
-  "termsAgreement": "En cliquant sur Accepter et envoyer, vous acceptez les {termsOfUseLink}Conditions d’utilisation{/termsOfUseLink} et l’Avis de {privacyNoticeLink}confidentialité{/privacyNoticeLink}.",
+  "termsAgreement": "En cliquant sur Accepter et soumettre, vous acceptez les {termsOfUseLink}Conditions d’utilisation{/termsOfUseLink} et l’Avis de {privacyNoticeLink}confidentialité{/privacyNoticeLink}.",
   "paypalPrivacyStatement": "{paypalPrivacyStatement-link}Déclaration de confidentialité{/paypalPrivacyStatement-link}",
   "paypalLegalAgreements": "{paypalLegalAgreements-link}Accords juridiques{/paypalLegalAgreements-link}",
   "paypalHelpHub": "{paypalHelpHub-link}Aide{/paypalHelpHub-link}",
   "paypalContactUs": "{paypalContactUs-link}Contact{/paypalContactUs-link}",
   "paypalCopyright": "Copyright © 1999 -{currentYear} PayPal. Tous droits réservés.",
   "confirmationModal.message1": "Êtes-vous sûr de vouloir partir ?",
-  "confirmationModal.message2": "Les informations que vous avez saisies ne peuvent pas être enregistrées.",
+  "confirmationModal.message2": "Les informations que vous avez saisies peuvent ne pas être enregistrées.",
   "confirmationModal.ok": "Congé",
   "confirmationModal.cancel": "Annuler",
   "invite.msg" : "Vous pouvez maintenant inviter votre point de contact pour {businessName} à créer un compte professionnel",
@@ -26,5 +26,5 @@
   "invite.response" : "Informations sur leur e-mail d’information envoyé à ahurston@goodeats.com",
   "registeredBusinessLegalFirstName" :"Saisissez un légal {givenName-DisplayNames}.",
   "registeredBusinessLegalLastName":"Saisissez un légal {surname-DisplayNames}.",
-  "welcomeScreenMessage" : "Nous allons vous demander de saisir des informations de base sur l’entreprise et les produits qu’elle souhaite configurer. </br></br>Gardez à l’esprit que les écrans avec les titres \ \"Remplissez-nous sur les bases \ \" et \ \"Parlez-nous de votre entreprise \ \" sont les mêmes que ceux que le point de contact de l’entreprise verra. Il vous suffit de remplir ce que vous savez, et le point de contact vous fournira le reste. </br></br>Lorsque vous avez terminé, assurez-vous de cliquer sur le bouton qui invite le point de contact de l’entreprise à créer un compte professionnel."
+  "welcomeScreenMessage" : "Nous allons vous demander de saisir des informations de base sur l’entreprise et les produits qu’elle souhaite configurer. </br></br>Gardez à l’esprit que les écrans avec les titres \ \"Renseignez-nous sur les bases \ \" et \ \"Parlez-nous de votre entreprise \ \" sont les mêmes que ceux que le point de contact de l’entreprise verra. Il vous suffit de remplir ce que vous savez, et le point de contact vous fournira le reste. </br></br>Lorsque vous avez terminé, assurez-vous de cliquer sur le bouton qui invite le point de contact de la société à créer un compte professionnel."
 }
