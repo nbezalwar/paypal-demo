@@ -1,5 +1,5 @@
 // MARK: Rewards - Push Notification
-"REWARDS_NOTIFICATION" = "Vous avez obtenu 1 tampon de la fonction transaction récenteA.";
+"REWARDS_NOTIFICATION" = "Vous avez reçu 1 tampon de la transaction récente PR FERMÉ.";
 
 // MARK: Store Cash - Push Notification
 "STORE_CASH" = "Bénéficiez de %1$@ de réduction sur votre prochain achat à %2$@. Utiliser avant le %3$@. Des conditions s’appliquent.";
