@@ -1,8 +1,8 @@
 // MARK: Rewards - Push Notification
-"REWARDS_NOTIFICATION" = "Obtuvo 1 sello de la transacción reciente PR CLOSED.";
+"REWARDS_NOTIFICATION" = "Obtuvo 1 sello de la reciente transacción PR CLOSE.";
 
 // MARK: Store Cash - Push Notification
-"STORE_CASH" = "Consigue %1$@ de descuento en tu próxima compra en %2$@. Se aplican términos de %3$ Use by %3$@..";
+"STORE_CASH" = "Des%1$@cuento en tu próxima compra en %2$@. Usar antes del %3$@. Se aplican términos.";
 
 "trading.general.amountCrypto" = "%1$@ %2$@";
 "trading.balanceTile.actionSheet.viewOneHolding" = "Ver %1$@";
@@ -11,12 +11,12 @@
 "trading.landing.reward.phaseTwo.promo.card.terms.description" = "<a href=\"%1$@\">Se aplican los términos de la recompensa</a>";
 "trading.landing.pricing.percent" = "%@%%";
 "trading.gainOrLoss.value.text" = "%1$@ (%2$@%%)";
-"trading.currencyDetail.valuePercentChange.increased.accessibilityTitle" = "Aumento de %1$@ %2$@%% %3$@";
-"trading.currencyDetail.valuePercentChange.decreased.accessibilityTitle" = "Disminución de %1$@ %2$@%% %3$@";
+"trading.currencyDetail.valuePercentChange.increased.accessibilityTitle" = "Aumento del %1$@ %2$@%% %3$@";
+"trading.currencyDetail.valuePercentChange.decreased.accessibilityTitle" = "Disminución %1$@ %2$@%% %3$@";
 "trading.amount.buy.amount.title" = "%1$@ %2$@ = 1 %3$@";
 "trading.fiSelectorCell.card.subtitle" = "%1$@ ••••%2$@";
 "trading.review.send.fee.value" = "%1$@ %2$@ (%3$@)";
-"trading.tpt.wallet.share.text" = "Esta es mi dirección %1$@: \n%2$@ \n\n-%3$@";
+"trading.tpt.wallet.share.text" = "Esta es mi %1$@ dirección: \n%2$@ \n\n-%3$@";
 
 
 
@@ -25,10 +25,10 @@
 "CIP_FLR" = "No hemos podido confirmar su identidad con su identificación con foto. Solo tienes que abrir tu aplicación para proporcionar un poco más de información.";
 
 //MARK: Incentive
-"INCENTIVE_AWARD" = "¡Tu recompensa está aquí!\nHemos añadido %1$@ de bono de reembolso a tu cuenta de PayPal. Consulte los detalles.";
-"INCENTIVE_EXPIRY" = "¡No deje escapar sus ahorros!\nTu cupón de %1$@ de reembolso caduca pronto. Consulte los detalles.";
+"INCENTIVE_AWARD" = "¡Tu recompensa está aquí!\nHemos añadido un vale de reembolso en %1$@ efectivo a tu cuenta de PayPal. Consulte los detalles.";
+"INCENTIVE_EXPIRY" = "¡No deje escapar sus ahorros!\nTu cupón de %1$@ reembolso caduca pronto. Consulte los detalles.";
 
 //MARK: Wallet
-"INSTANT_WITHDRAW_SUC" = "Su transferencia de %1$@ a su %2$@ %3$@ ****%4$@ ha finalizado.";
-"INSTANT_WITHDRAW_FLR_DUETO_SYSTEM" = "℮ ...... su transferencia de %1$@ a su %2$@ %3$@ ****%4$@ no se realizó correctamente. En su lugar, puede solicitar una transferencia estándar.";
-"INSTANT_WITHDRAW_FLR_DUETO_BANK" = "℮ ...... su transferencia de %1$@ a su %2$@ %3$@ ****%4$@ no se realizó correctamente. Seleccione una cuenta bancaria diferente para la transferencia.";
+"INSTANT_WITHDRAW_SUC" = "Su %1$@ transferencia a su %2$@ %3$@ ****%4$@ ya ha finalizado.";
+"INSTANT_WITHDRAW_FLR_DUETO_SYSTEM" = "℮ .... su %1$@ transferencia a su %2$@ %3$@ ****%4$@ no se ha realizado correctamente. En su lugar, puede solicitar una transferencia estándar.";
+"INSTANT_WITHDRAW_FLR_DUETO_BANK" = "℮ .... su %1$@ transferencia a su %2$@ %3$@ ****%4$@ no se ha realizado correctamente. Seleccione una cuenta bancaria diferente para la transferencia.";
