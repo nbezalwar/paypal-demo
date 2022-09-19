@@ -1,0 +1,41 @@
+<resources>
+    <string name="credentials_error_message">Check your info and try again now_updated for German</string>
+    <string name="trading_landing_asset_amount_owned">%s owned.</string>
+    <string name="trading_loading_error_message">We\'re having some trouble loading this information new.</string>
+    <string name="trading_landing_referral_message">You can earn $10 when you invite a friend to buy crypto.. Terms apply</string>
+    <string name="trading_loading_error_message">We\'re having some trouble loading this information.</string>
+    <string name="trading_page_loading_error_message">We\'re having some trouble loading this page.</string>
+    <string name="trading_detail_tooltip_1_uk">Here\'s the current estimated value of %s. You can buy a piece of it for as little as £1.</string>
+    <string name="trading_buy_first_time_success_message">You now own %1$s %2$s</string>
+    <string name="trading_half_sheet_account_formatted">%1$s ••••%2$s</string>
+    <string name="trading_pyusd_exchange_rate_fee_buy_info">All crypto purchases are final.&#160;</string>
+    <string name="trading_buy_toast_message">You purchased %1$s %2$s!</string>
+    <string name="trading_sell_toast_message">You received %3$s into your balance for selling %1$s %2$s.</string>
+    <string name="trading_half_sheet_review_exchange_rate">%2$s = 1 %1$s</string>
+    <string name="trading_buy_amount_info">Buy as little as %1$s1 of %2$s</string>
+    <string name="trading_amount_crypto_value">%1s %2s = 1 %3s</string>
+    <string name="trading_clear_amount_content_description">clear amount</string>
+    <string name="trading_buy_title">Buy %s</string>
+    <string name="trading_buy_minimum_amount_error">The minimum purchase amount is %1$s1.00.</string>
+    <string name="trading_ineligible_fi_description">Only confirmed bank accounts, most debit cards, and balances with sufficient funds can be used to buy cryptocurrencies. <a href="https://www.paypal.com/us/webapps/mpp/popup/about-payment-methods">See payment method rights and policies.</a></string>
+    <string name="trading_rewards_intro_boost_returning_user_body">Just buy at least $%1$s of any crypto and get an extra $%2$s worth on us.\n\nOnce you have your crypto reward, you can sell it, hold it, or use it to make purchases\u2014the choice is yours</string>
+    <plurals name="trading_risk_money_on_hold_phase_2_learn_more_info_content_1_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="trading_transfer_fee_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="trading_transfer_fee_hours">
+        <item quantity="other">%1$s hours</item>
+        <item quantity="one">1 hour</item>
+    </plurals>
+    <plurals name="trading_transfer_fee_minutes">
+        <item quantity="other">%1$s minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <string name="trading_price_alerts_turn_notifications_dialog_button_secondary">@android:string/cancel</string>
+    <string name="trading_price_alerts_toast_success">Your %1$s price alert is set to %2$s%%.</string>
+    <string name="trading_transfer_exchange_disclaimer_new_stablecoin">All crypto transfers are final.\n\nAll transfers are subject to review and could be delayed or stopped if we find an issue.</string>
+ </resources>
