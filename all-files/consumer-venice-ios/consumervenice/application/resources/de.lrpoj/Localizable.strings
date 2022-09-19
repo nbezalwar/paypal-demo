@@ -1,5 +1,5 @@
 // MARK: Rewards - Push Notification
-"REWARDS_NOTIFICATION" = "Sie haben 1 Stempel aus der letzten Transaktion PR-CLOSED erhalten.";
+"REWARDS_NOTIFICATION" = "Sie haben 1 Stempel aus der letzten Transaktion PR-CLOSED new change erhalten.";
 
 // MARK: Store Cash - Push Notification
 "STORE_CASH" = "Sichern Sie %1$@ sich Ihren nächsten Einkauf bei %2$@. Verwendbar bis %3$@. Es gelten die Bedingungen.";
